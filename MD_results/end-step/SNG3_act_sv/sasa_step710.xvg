@@ -1,0 +1,35 @@
+# This file was created Mon Sep 23 07:14:25 2024
+# Created by:
+#               :-) GROMACS - gmx sasa, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content/drive/MyDrive/MD/SNG3_hm_act_sv/gromacs
+# Command line:
+#   gmx sasa -f step7_10.trr -s step7_10.tpr -o sasa_step710.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  131.556
+    500.000  134.764
+   1000.000  132.801
+   1500.000  134.311
+   2000.000  132.499
+   2500.000  134.575
+   3000.000  133.216
+   3500.000  132.084
+   4000.000  132.047
+   4500.000  133.632
+   5000.000  132.575

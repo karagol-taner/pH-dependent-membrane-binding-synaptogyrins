@@ -1,0 +1,35 @@
+# This file was created Tue Sep 17 11:37:38 2024
+# Created by:
+#               :-) GROMACS - gmx sasa, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content/drive/MyDrive/MD/SNG3_hm_rest_sv/gromacs
+# Command line:
+#   gmx sasa -f step7_10.trr -s step7_10.tpr -o sasa_step710.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  132.235
+    500.000  132.273
+   1000.000  135.292
+   1500.000  131.367
+   2000.000  133.707
+   2500.000  134.122
+   3000.000  133.556
+   3500.000  134.500
+   4000.000  134.764
+   4500.000  133.065
+   5000.000  133.896

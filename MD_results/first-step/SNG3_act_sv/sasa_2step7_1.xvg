@@ -1,0 +1,35 @@
+# This file was created Wed Nov 13 13:55:27 2024
+# Created by:
+#               :-) GROMACS - gmx sasa, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /content/drive/MyDrive/MD/SNG3_hm_act_sv/gromacs
+# Command line:
+#   gmx sasa -f step7_1.trr -s step7_1.tpr -o sasa_2step7_1.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  137.141
+    500.000  136.424
+   1000.000  135.405
+   1500.000  137.330
+   2000.000  134.839
+   2500.000  135.066
+   3000.000  134.952
+   3500.000  134.575
+   4000.000  136.424
+   4500.000  135.103
+   5000.000  135.330
